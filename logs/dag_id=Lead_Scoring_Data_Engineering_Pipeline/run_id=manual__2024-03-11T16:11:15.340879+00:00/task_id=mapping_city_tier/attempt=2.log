@@ -1,0 +1,27 @@
+[2024-03-11T16:11:33.477+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_city_tier manual__2024-03-11T16:11:15.340879+00:00 [queued]>
+[2024-03-11T16:11:33.482+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_city_tier manual__2024-03-11T16:11:15.340879+00:00 [queued]>
+[2024-03-11T16:11:33.482+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 2
+[2024-03-11T16:11:33.504+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): mapping_city_tier> on 2024-03-11 16:11:15.340879+00:00
+[2024-03-11T16:11:33.507+0000] {standard_task_runner.py:60} INFO - Started process 609 to run task
+[2024-03-11T16:11:33.513+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_Scoring_Data_Engineering_Pipeline', 'mapping_city_tier', 'manual__2024-03-11T16:11:15.340879+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py', '--cfg-path', '/tmp/tmpa34w99on']
+[2024-03-11T16:11:33.513+0000] {standard_task_runner.py:88} INFO - Job 18: Subtask mapping_city_tier
+[2024-03-11T16:11:33.549+0000] {task_command.py:423} INFO - Running <TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_city_tier manual__2024-03-11T16:11:15.340879+00:00 [running]> on host 19276f21f48e
+[2024-03-11T16:11:33.599+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Lead_Scoring_Data_Engineering_Pipeline' AIRFLOW_CTX_TASK_ID='mapping_city_tier' AIRFLOW_CTX_EXECUTION_DATE='2024-03-11T16:11:15.340879+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-11T16:11:15.340879+00:00'
+[2024-03-11T16:11:33.600+0000] {logging_mixin.py:188} INFO - Exception thrown in map_city_tier : unable to open database file
+[2024-03-11T16:11:33.600+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/dags/Lead_scoring_data_pipeline/utils.py", line 187, in map_city_tier
+    if conn:
+UnboundLocalError: local variable 'conn' referenced before assignment
+[2024-03-11T16:11:33.602+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=Lead_Scoring_Data_Engineering_Pipeline, task_id=mapping_city_tier, execution_date=20240311T161115, start_date=20240311T161133, end_date=20240311T161133
+[2024-03-11T16:11:33.622+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 18 for task mapping_city_tier (local variable 'conn' referenced before assignment; 609)
+[2024-03-11T16:11:33.642+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-11T16:11:33.657+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,16 @@
+[2024-03-14T16:37:39.563+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Lead_scoring_inference_pipeline.generating_models_prediction scheduled__2024-03-14T15:00:00+00:00 [queued]>
+[2024-03-14T16:37:39.568+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Lead_scoring_inference_pipeline.generating_models_prediction scheduled__2024-03-14T15:00:00+00:00 [queued]>
+[2024-03-14T16:37:39.569+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-14T16:37:39.663+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): generating_models_prediction> on 2024-03-14 15:00:00+00:00
+[2024-03-14T16:37:39.672+0000] {standard_task_runner.py:60} INFO - Started process 2147 to run task
+[2024-03-14T16:37:39.674+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_scoring_inference_pipeline', 'generating_models_prediction', 'scheduled__2024-03-14T15:00:00+00:00', '--job-id', '135', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_inference_pipeline/lead_scoring_inference_pipeline.py', '--cfg-path', '/tmp/tmpsy_5pe06']
+[2024-03-14T16:37:39.675+0000] {standard_task_runner.py:88} INFO - Job 135: Subtask generating_models_prediction
+[2024-03-14T16:37:39.784+0000] {task_command.py:423} INFO - Running <TaskInstance: Lead_scoring_inference_pipeline.generating_models_prediction scheduled__2024-03-14T15:00:00+00:00 [running]> on host 7c9aeec74829
+[2024-03-14T16:37:40.100+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Lead_scoring_inference_pipeline' AIRFLOW_CTX_TASK_ID='generating_models_prediction' AIRFLOW_CTX_EXECUTION_DATE='2024-03-14T15:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-14T15:00:00+00:00'
+[2024-03-14T16:37:40.103+0000] {logging_mixin.py:188} INFO - Model url models:/LightGBM/production
+[2024-03-14T16:37:40.122+0000] {logging_mixin.py:188} WARNING - /usr/local/lib/python3.8/dist-packages/mlflow/store/artifact/utils/models.py:32 FutureWarning: ``mlflow.tracking.client.MlflowClient.get_latest_versions`` is deprecated since 2.9.0. Model registry stages will be removed in a future major release. To learn more about the deprecation of model registry stages, see our migration guide here: https://mlflow.org/docs/2.11.1/model-registry.html#migrating-from-stages
+[2024-03-14T16:37:40.609+0000] {logging_mixin.py:188} INFO - Error while running get_models_prediction : No versions of model with name 'LightGBM' and stage 'production' found
+[2024-03-14T16:37:40.609+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-14T16:37:40.614+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=Lead_scoring_inference_pipeline, task_id=generating_models_prediction, execution_date=20240314T150000, start_date=20240314T163739, end_date=20240314T163740
+[2024-03-14T16:37:40.771+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-14T16:37:40.825+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

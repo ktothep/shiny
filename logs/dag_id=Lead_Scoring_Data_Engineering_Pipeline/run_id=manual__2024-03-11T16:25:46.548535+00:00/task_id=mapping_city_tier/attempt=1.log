@@ -1,0 +1,16 @@
+[2024-03-11T16:26:03.538+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_city_tier manual__2024-03-11T16:25:46.548535+00:00 [queued]>
+[2024-03-11T16:26:03.543+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_city_tier manual__2024-03-11T16:25:46.548535+00:00 [queued]>
+[2024-03-11T16:26:03.543+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-11T16:26:03.562+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): mapping_city_tier> on 2024-03-11 16:25:46.548535+00:00
+[2024-03-11T16:26:03.567+0000] {standard_task_runner.py:60} INFO - Started process 1577 to run task
+[2024-03-11T16:26:03.572+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_Scoring_Data_Engineering_Pipeline', 'mapping_city_tier', 'manual__2024-03-11T16:25:46.548535+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py', '--cfg-path', '/tmp/tmpv42xm99v']
+[2024-03-11T16:26:03.572+0000] {standard_task_runner.py:88} INFO - Job 62: Subtask mapping_city_tier
+[2024-03-11T16:26:03.612+0000] {task_command.py:423} INFO - Running <TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_city_tier manual__2024-03-11T16:25:46.548535+00:00 [running]> on host 19276f21f48e
+[2024-03-11T16:26:03.675+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Lead_Scoring_Data_Engineering_Pipeline' AIRFLOW_CTX_TASK_ID='mapping_city_tier' AIRFLOW_CTX_EXECUTION_DATE='2024-03-11T16:25:46.548535+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-11T16:25:46.548535+00:00'
+[2024-03-11T16:26:03.678+0000] {logging_mixin.py:188} INFO - Loading loaded_data table
+[2024-03-11T16:26:06.754+0000] {logging_mixin.py:188} INFO - Mapping city_mapped to tiers
+[2024-03-11T16:26:06.931+0000] {logging_mixin.py:188} INFO - Storing mapped df to table city_tier_mapped
+[2024-03-11T16:26:11.987+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-11T16:26:11.991+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=Lead_Scoring_Data_Engineering_Pipeline, task_id=mapping_city_tier, execution_date=20240311T162546, start_date=20240311T162603, end_date=20240311T162611
+[2024-03-11T16:26:12.032+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-11T16:26:12.047+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

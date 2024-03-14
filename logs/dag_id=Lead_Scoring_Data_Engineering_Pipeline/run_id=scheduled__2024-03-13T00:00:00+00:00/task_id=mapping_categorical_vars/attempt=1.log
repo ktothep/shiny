@@ -1,0 +1,14 @@
+[2024-03-14T16:22:08.028+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_categorical_vars scheduled__2024-03-13T00:00:00+00:00 [queued]>
+[2024-03-14T16:22:08.033+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_categorical_vars scheduled__2024-03-13T00:00:00+00:00 [queued]>
+[2024-03-14T16:22:08.033+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-14T16:22:08.136+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): mapping_categorical_vars> on 2024-03-13 00:00:00+00:00
+[2024-03-14T16:22:08.142+0000] {standard_task_runner.py:60} INFO - Started process 484 to run task
+[2024-03-14T16:22:08.145+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_Scoring_Data_Engineering_Pipeline', 'mapping_categorical_vars', 'scheduled__2024-03-13T00:00:00+00:00', '--job-id', '114', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py', '--cfg-path', '/tmp/tmpdmk5r0fw']
+[2024-03-14T16:22:08.145+0000] {standard_task_runner.py:88} INFO - Job 114: Subtask mapping_categorical_vars
+[2024-03-14T16:22:08.266+0000] {task_command.py:423} INFO - Running <TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_categorical_vars scheduled__2024-03-13T00:00:00+00:00 [running]> on host 7c9aeec74829
+[2024-03-14T16:22:08.583+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Lead_Scoring_Data_Engineering_Pipeline' AIRFLOW_CTX_TASK_ID='mapping_categorical_vars' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-13T00:00:00+00:00'
+[2024-03-14T16:22:08.592+0000] {logging_mixin.py:188} INFO - categorical_variables_mapped already Stored
+[2024-03-14T16:22:08.593+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-14T16:22:08.604+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=Lead_Scoring_Data_Engineering_Pipeline, task_id=mapping_categorical_vars, execution_date=20240313T000000, start_date=20240314T162208, end_date=20240314T162208
+[2024-03-14T16:22:08.760+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-14T16:22:08.811+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

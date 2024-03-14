@@ -1,0 +1,622 @@
+[2024-03-11T15:49:50.707+0000] {processor.py:161} INFO - Started process (PID=1072) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:49:50.708+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T15:49:50.709+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:49:50.708+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:49:50.725+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:49:50.712+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+ModuleNotFoundError: No module named 'Lead_scoring_training_pipeline'
+[2024-03-11T15:49:50.726+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:49:50.757+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.054 seconds
+[2024-03-11T15:50:25.841+0000] {processor.py:161} INFO - Started process (PID=1107) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:50:25.842+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T15:50:25.843+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:50:25.843+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:50:25.847+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:50:25.846+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+ModuleNotFoundError: No module named 'Lead_scoring_training_pipeline'
+[2024-03-11T15:50:25.847+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:50:25.875+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.037 seconds
+[2024-03-11T15:51:12.911+0000] {processor.py:161} INFO - Started process (PID=1153) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:51:12.913+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T15:51:12.914+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:51:12.914+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:51:12.918+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:51:12.917+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+ModuleNotFoundError: No module named 'Lead_scoring_training_pipeline'
+[2024-03-11T15:51:12.919+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:51:12.946+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.037 seconds
+[2024-03-11T15:51:59.408+0000] {processor.py:161} INFO - Started process (PID=1216) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:51:59.409+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T15:51:59.410+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:51:59.410+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:51:59.414+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:51:59.413+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+ModuleNotFoundError: No module named 'Lead_scoring_training_pipeline'
+[2024-03-11T15:51:59.414+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:51:59.441+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.036 seconds
+[2024-03-11T15:52:39.952+0000] {processor.py:161} INFO - Started process (PID=1257) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:52:39.954+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T15:52:39.955+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:52:39.955+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:52:39.960+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:52:39.959+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+ModuleNotFoundError: No module named 'Lead_scoring_training_pipeline'
+[2024-03-11T15:52:39.960+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:52:39.986+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.037 seconds
+[2024-03-11T15:53:27.432+0000] {processor.py:161} INFO - Started process (PID=1304) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:53:27.434+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T15:53:27.435+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:53:27.435+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:53:27.439+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:53:27.438+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+ModuleNotFoundError: No module named 'Lead_scoring_training_pipeline'
+[2024-03-11T15:53:27.439+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:53:27.466+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.037 seconds
+[2024-03-11T15:54:15.987+0000] {processor.py:161} INFO - Started process (PID=1372) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:54:15.989+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T15:54:15.990+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:54:15.989+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:54:15.993+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:54:15.992+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+ModuleNotFoundError: No module named 'Lead_scoring_training_pipeline'
+[2024-03-11T15:54:15.993+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:54:16.021+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.037 seconds
+[2024-03-11T15:55:25.506+0000] {processor.py:161} INFO - Started process (PID=1442) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:55:25.508+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T15:55:25.509+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:55:25.508+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:55:27.079+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:55:27.152+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:55:27.152+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T15:55:27.166+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:55:27.166+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T15:55:27.200+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.697 seconds
+[2024-03-11T15:56:24.082+0000] {processor.py:161} INFO - Started process (PID=1494) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:56:24.084+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T15:56:24.084+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:56:24.084+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:56:25.573+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:56:25.584+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:56:25.584+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T15:56:25.598+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:56:25.598+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T15:56:25.621+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.542 seconds
+[2024-03-11T15:57:20.021+0000] {processor.py:161} INFO - Started process (PID=1546) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:57:20.023+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T15:57:20.024+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:57:20.024+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:57:21.521+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:57:21.532+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:57:21.532+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T15:57:21.547+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:57:21.547+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T15:57:21.567+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.550 seconds
+[2024-03-11T15:58:09.470+0000] {processor.py:161} INFO - Started process (PID=1593) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:58:09.472+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T15:58:09.473+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:58:09.473+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:58:10.975+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T15:58:10.986+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:58:10.986+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T15:58:11.001+0000] {logging_mixin.py:188} INFO - [2024-03-11T15:58:11.001+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T15:58:11.025+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.558 seconds
+[2024-03-11T16:09:19.620+0000] {processor.py:161} INFO - Started process (PID=469) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:09:19.622+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:09:19.623+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:09:19.623+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:09:19.908+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:09:19.906+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:09:19.908+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:09:19.935+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.318 seconds
+[2024-03-11T16:10:29.315+0000] {processor.py:161} INFO - Started process (PID=540) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:10:29.317+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:10:29.318+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:10:29.318+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:10:29.601+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:10:29.600+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:10:29.602+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:10:29.627+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.316 seconds
+[2024-03-11T16:11:54.622+0000] {processor.py:161} INFO - Started process (PID=629) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:11:54.624+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:11:54.625+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:11:54.624+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:11:54.903+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:11:54.901+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:11:54.903+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:11:54.928+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.309 seconds
+[2024-03-11T16:12:47.855+0000] {processor.py:161} INFO - Started process (PID=682) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:12:47.873+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:12:47.874+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:12:47.874+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:12:48.370+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:12:48.368+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:12:48.371+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:12:48.395+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.544 seconds
+[2024-03-11T16:14:01.780+0000] {processor.py:161} INFO - Started process (PID=769) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:14:01.782+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:14:01.783+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:14:01.783+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:14:02.064+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:14:02.062+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:14:02.064+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:14:02.088+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.311 seconds
+[2024-03-11T16:15:10.837+0000] {processor.py:161} INFO - Started process (PID=840) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:15:10.839+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:15:10.840+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:15:10.839+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:15:11.120+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:15:11.118+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:15:11.120+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:15:11.141+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.308 seconds
+[2024-03-11T16:16:21.416+0000] {processor.py:161} INFO - Started process (PID=910) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:16:21.418+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:16:21.419+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:16:21.418+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:16:21.695+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:16:21.694+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:16:21.695+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:16:21.716+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.304 seconds
+[2024-03-11T16:17:31.942+0000] {processor.py:161} INFO - Started process (PID=981) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:17:31.944+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:17:31.945+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:17:31.944+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:17:32.225+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:17:32.223+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:17:32.225+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:17:32.249+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.311 seconds
+[2024-03-11T16:18:46.157+0000] {processor.py:161} INFO - Started process (PID=1052) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:18:46.159+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:18:46.160+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:18:46.160+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:18:46.443+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:18:46.441+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:18:46.443+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:18:46.469+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.315 seconds
+[2024-03-11T16:19:52.399+0000] {processor.py:161} INFO - Started process (PID=1122) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:19:52.401+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:19:52.402+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:19:52.401+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:19:52.681+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:19:52.679+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:19:52.682+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:19:52.706+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.311 seconds
+[2024-03-11T16:21:05.116+0000] {processor.py:161} INFO - Started process (PID=1235) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:21:05.118+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:21:05.119+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:21:05.119+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:21:05.396+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:21:05.393+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:21:05.396+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:21:05.417+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.304 seconds
+[2024-03-11T16:22:19.056+0000] {processor.py:161} INFO - Started process (PID=1332) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:22:19.058+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:22:19.059+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:22:19.058+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:22:19.339+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:22:19.337+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:22:19.339+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:22:19.366+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.314 seconds
+[2024-03-11T16:23:43.869+0000] {processor.py:161} INFO - Started process (PID=1439) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:23:43.871+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:23:43.872+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:23:43.871+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:23:44.155+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:23:44.153+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:23:44.155+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:23:44.179+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.314 seconds
+[2024-03-11T16:24:37.336+0000] {processor.py:161} INFO - Started process (PID=1491) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:24:37.338+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:24:37.340+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:24:37.339+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:24:37.638+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:24:37.636+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:24:37.638+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:24:37.664+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.332 seconds
+[2024-03-11T16:25:39.765+0000] {processor.py:161} INFO - Started process (PID=1556) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:25:39.766+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:25:39.767+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:25:39.767+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:25:40.055+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:25:40.053+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:25:40.055+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:25:40.078+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.316 seconds
+[2024-03-11T16:28:11.919+0000] {processor.py:161} INFO - Started process (PID=1648) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:28:11.921+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:28:11.923+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:28:11.922+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:28:12.212+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:28:12.208+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:28:12.213+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:28:12.239+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.324 seconds
+[2024-03-11T16:29:08.783+0000] {processor.py:161} INFO - Started process (PID=1707) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:29:08.785+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:29:08.786+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:29:08.786+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:29:09.085+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:29:09.083+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:29:09.085+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:29:09.111+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.332 seconds
+[2024-03-11T16:30:08.703+0000] {processor.py:161} INFO - Started process (PID=1773) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:30:08.705+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:30:08.706+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:30:08.706+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:30:08.994+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:30:08.992+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:30:08.994+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:30:09.018+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.322 seconds
+[2024-03-11T16:31:01.555+0000] {processor.py:161} INFO - Started process (PID=1831) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:31:01.557+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:31:01.558+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:31:01.557+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:31:01.847+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:31:01.845+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:31:01.847+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:31:01.872+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.321 seconds
+[2024-03-11T16:33:44.542+0000] {processor.py:161} INFO - Started process (PID=1927) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:33:44.546+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:33:44.547+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:33:44.547+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:33:44.835+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:33:44.832+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:33:44.835+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:33:44.857+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.318 seconds
+[2024-03-11T16:36:32.496+0000] {processor.py:161} INFO - Started process (PID=2020) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:36:32.498+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:36:32.499+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:36:32.499+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:36:32.801+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:36:32.797+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:36:32.801+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:36:32.826+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.334 seconds
+[2024-03-11T16:41:42.987+0000] {processor.py:161} INFO - Started process (PID=470) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:41:42.988+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:41:42.989+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:41:42.989+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:41:43.282+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:41:43.280+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 23, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-11T16:41:43.282+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:41:43.303+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.320 seconds
+[2024-03-11T16:48:25.606+0000] {processor.py:161} INFO - Started process (PID=843) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:48:25.608+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:48:25.609+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:48:25.609+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:48:26.559+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:48:26.558+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 28, in <module>
+    import lightgbm as lgb
+ModuleNotFoundError: No module named 'lightgbm'
+[2024-03-11T16:48:26.562+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:48:26.581+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 0.978 seconds
+[2024-03-11T16:49:18.327+0000] {processor.py:161} INFO - Started process (PID=954) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:49:18.329+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:49:18.330+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:49:18.329+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:49:19.404+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:49:19.403+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 7, in <module>
+    from Lead_scoring_training_pipeline.utils import *
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 28, in <module>
+    import lightgbm as lgb
+ModuleNotFoundError: No module named 'lightgbm'
+[2024-03-11T16:49:19.407+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:49:19.428+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.104 seconds
+[2024-03-11T16:50:33.670+0000] {processor.py:161} INFO - Started process (PID=1068) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:50:33.672+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:50:33.673+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:50:33.672+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:50:35.709+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:50:35.778+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:50:35.778+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T16:50:35.793+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:50:35.793+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T16:50:35.838+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 2.171 seconds
+[2024-03-11T16:51:57.319+0000] {processor.py:161} INFO - Started process (PID=1170) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:51:57.321+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:51:57.322+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:51:57.322+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:51:59.064+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:51:59.074+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:51:59.073+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T16:51:59.089+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:51:59.089+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T16:51:59.112+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.796 seconds
+[2024-03-11T16:53:17.918+0000] {processor.py:161} INFO - Started process (PID=1278) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:53:17.920+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:53:17.921+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:53:17.921+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:53:19.737+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:53:19.749+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:53:19.749+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T16:53:19.764+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:53:19.764+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T16:53:19.789+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.874 seconds
+[2024-03-11T16:54:38.957+0000] {processor.py:161} INFO - Started process (PID=1381) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:54:38.959+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:54:38.960+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:54:38.960+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:54:40.726+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:54:40.739+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:54:40.738+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T16:54:40.754+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:54:40.754+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T16:54:40.777+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.823 seconds
+[2024-03-11T16:55:58.755+0000] {processor.py:161} INFO - Started process (PID=1488) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:55:58.757+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:55:58.758+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:55:58.757+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:56:00.486+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:56:00.499+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:56:00.499+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T16:56:00.514+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:56:00.514+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T16:56:00.538+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.786 seconds
+[2024-03-11T16:57:18.382+0000] {processor.py:161} INFO - Started process (PID=1610) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:57:18.384+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T16:57:18.385+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:57:18.384+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:57:20.128+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T16:57:20.139+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:57:20.138+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T16:57:20.154+0000] {logging_mixin.py:188} INFO - [2024-03-11T16:57:20.154+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T16:57:20.178+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.799 seconds
+[2024-03-11T17:09:06.746+0000] {processor.py:161} INFO - Started process (PID=2335) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:09:06.748+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T17:09:06.749+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:09:06.749+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:09:08.558+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:09:08.568+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:09:08.568+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T17:09:08.585+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:09:08.585+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T17:09:08.607+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.864 seconds
+[2024-03-11T17:10:03.326+0000] {processor.py:161} INFO - Started process (PID=2413) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:10:03.328+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T17:10:03.329+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:10:03.329+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:10:05.084+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:10:05.095+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:10:05.094+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T17:10:05.110+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:10:05.110+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T17:10:05.135+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.811 seconds
+[2024-03-11T17:12:25.306+0000] {processor.py:161} INFO - Started process (PID=2599) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:12:25.308+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T17:12:25.309+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:12:25.309+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:12:27.053+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:12:27.062+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:12:27.062+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T17:12:27.078+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:12:27.078+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T17:12:27.101+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.798 seconds
+[2024-03-11T17:13:21.083+0000] {processor.py:161} INFO - Started process (PID=2720) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:13:21.085+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T17:13:21.086+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:13:21.086+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:13:22.891+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:13:22.902+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:13:22.902+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T17:13:22.917+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:13:22.917+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T17:13:22.941+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.861 seconds
+[2024-03-11T17:14:58.343+0000] {processor.py:161} INFO - Started process (PID=2897) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:14:58.345+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T17:14:58.346+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:14:58.346+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:15:00.068+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:15:00.078+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:15:00.077+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T17:15:00.093+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:15:00.092+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T17:15:00.117+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.777 seconds
+[2024-03-11T17:15:56.170+0000] {processor.py:161} INFO - Started process (PID=2978) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:15:56.173+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T17:15:56.174+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:15:56.173+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:15:57.893+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:15:57.903+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:15:57.903+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T17:15:57.918+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:15:57.918+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T17:15:57.942+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.774 seconds
+[2024-03-11T17:17:17.514+0000] {processor.py:161} INFO - Started process (PID=3085) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:17:17.516+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T17:17:17.517+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:17:17.516+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:17:19.262+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:17:19.271+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:17:19.271+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T17:17:19.286+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:17:19.286+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T17:17:19.311+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.800 seconds
+[2024-03-11T17:18:41.264+0000] {processor.py:161} INFO - Started process (PID=3189) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:18:41.266+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T17:18:41.267+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:18:41.267+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:18:43.009+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:18:43.019+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:18:43.019+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T17:18:43.034+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:18:43.034+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T17:18:43.058+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.798 seconds
+[2024-03-11T17:20:01.674+0000] {processor.py:161} INFO - Started process (PID=3297) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:20:01.675+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T17:20:01.676+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:20:01.676+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:20:03.408+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:20:03.419+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:20:03.419+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T17:20:03.434+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:20:03.434+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T17:20:03.458+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.787 seconds
+[2024-03-11T17:21:22.247+0000] {processor.py:161} INFO - Started process (PID=3399) to work on /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:21:22.249+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2024-03-11T17:21:22.250+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:21:22.249+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:21:24.072+0000] {processor.py:840} INFO - DAG(s) 'Lead_scoring_training_pipeline' retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2024-03-11T17:21:24.083+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:21:24.082+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T17:21:24.099+0000] {logging_mixin.py:188} INFO - [2024-03-11T17:21:24.099+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_scoring_training_pipeline to 2024-04-01 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-03-11T17:21:24.122+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.879 seconds

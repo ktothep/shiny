@@ -1,0 +1,143 @@
+[2024-03-14T16:36:03.748+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Lead_scoring_training_pipeline.training_model manual__2024-03-14T16:35:52.710448+00:00 [queued]>
+[2024-03-14T16:36:03.754+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Lead_scoring_training_pipeline.training_model manual__2024-03-14T16:35:52.710448+00:00 [queued]>
+[2024-03-14T16:36:03.755+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-14T16:36:03.788+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): training_model> on 2024-03-14 16:35:52.710448+00:00
+[2024-03-14T16:36:03.797+0000] {standard_task_runner.py:60} INFO - Started process 1969 to run task
+[2024-03-14T16:36:03.800+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_scoring_training_pipeline', 'training_model', 'manual__2024-03-14T16:35:52.710448+00:00', '--job-id', '133', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py', '--cfg-path', '/tmp/tmpc_ht7o4s']
+[2024-03-14T16:36:03.801+0000] {standard_task_runner.py:88} INFO - Job 133: Subtask training_model
+[2024-03-14T16:36:03.849+0000] {task_command.py:423} INFO - Running <TaskInstance: Lead_scoring_training_pipeline.training_model manual__2024-03-14T16:35:52.710448+00:00 [running]> on host 7c9aeec74829
+[2024-03-14T16:36:03.938+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Lead_scoring_training_pipeline' AIRFLOW_CTX_TASK_ID='training_model' AIRFLOW_CTX_EXECUTION_DATE='2024-03-14T16:35:52.710448+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-14T16:35:52.710448+00:00'
+[2024-03-14T16:36:03.939+0000] {logging_mixin.py:188} INFO - /home/airflow
+[2024-03-14T16:36:03.939+0000] {logging_mixin.py:188} INFO - ['logs', 'airflow.cfg', 'airflow.db', 'webserver_config.py', '.ipynb_checkpoints', 'dags', 'airflow-webserver.pid']
+[2024-03-14T16:36:03.939+0000] {logging_mixin.py:188} INFO - /home/mlfow/
+[2024-03-14T16:36:03.939+0000] {logging_mixin.py:188} INFO - Lead_scoring_mlflow_production.db
+[2024-03-14T16:36:03.940+0000] {logging_mixin.py:188} INFO - unable to open database file
+[2024-03-14T16:36:03.943+0000] {logging_mixin.py:188} INFO - Loading 'features' table
+[2024-03-14T16:36:07.837+0000] {logging_mixin.py:188} INFO - Loading 'target' table
+[2024-03-14T16:36:08.088+0000] {utils.py:201} INFO - Creating mlflow experiment
+[2024-03-14T16:36:09.652+0000] {logging_mixin.py:188} INFO - Herte
+[2024-03-14T16:36:09.677+0000] {logging_mixin.py:188} INFO - file:///home/mlflow_folder/1/9b2520f45a2c45d99aae2ebf92e30853/artifacts
+[2024-03-14T16:36:09.699+0000] {logging_mixin.py:188} WARNING - /usr/local/lib/python3.8/dist-packages/sklearn/preprocessing/_label.py:99 DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+[2024-03-14T16:36:09.708+0000] {logging_mixin.py:188} WARNING - /usr/local/lib/python3.8/dist-packages/sklearn/preprocessing/_label.py:134 DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+[2024-03-14T16:36:09.782+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] Unknown parameter: silent
+[2024-03-14T16:36:09.782+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] bagging_freq is set=7, subsample_freq=0 will be ignored. Current value: bagging_freq=7
+[2024-03-14T16:36:09.782+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] feature_fraction is set=0.7938437977336682, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7938437977336682
+[2024-03-14T16:36:09.782+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] bagging_fraction is set=0.9776942233774311, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9776942233774311
+[2024-03-14T16:36:09.907+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] Unknown parameter: silent
+[2024-03-14T16:36:09.907+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] bagging_freq is set=7, subsample_freq=0 will be ignored. Current value: bagging_freq=7
+[2024-03-14T16:36:09.907+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] feature_fraction is set=0.7938437977336682, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7938437977336682
+[2024-03-14T16:36:09.908+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] bagging_fraction is set=0.9776942233774311, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9776942233774311
+[2024-03-14T16:36:09.908+0000] {logging_mixin.py:188} INFO - [LightGBM] [Info] Number of positive: 95816, number of negative: 95355
+[2024-03-14T16:36:09.919+0000] {logging_mixin.py:188} INFO - [LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.002190 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[2024-03-14T16:36:09.920+0000] {logging_mixin.py:188} INFO - [LightGBM] [Info] Total Bins 120
+[2024-03-14T16:36:09.920+0000] {logging_mixin.py:188} INFO - [LightGBM] [Info] Number of data points in the train set: 191171, number of used features: 38
+[2024-03-14T16:36:09.922+0000] {logging_mixin.py:188} INFO - [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.501206 -> initscore=0.004823
+[2024-03-14T16:36:09.922+0000] {logging_mixin.py:188} INFO - [LightGBM] [Info] Start training from score 0.004823
+[2024-03-14T16:36:09.984+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.102+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.127+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.160+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.223+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.264+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.274+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.284+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.314+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.323+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.344+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.354+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.373+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.383+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.472+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.489+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.497+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.543+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.557+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.589+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.597+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.611+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.618+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.625+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.632+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.638+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.646+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.674+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.680+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.687+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.694+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.701+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.707+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.714+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.719+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.725+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.731+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.737+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.743+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.749+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.755+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.761+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.767+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.774+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.779+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.785+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.791+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.797+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.802+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.808+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.814+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.820+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.827+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.833+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.838+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.859+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.865+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.869+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.874+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.880+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.884+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.888+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.892+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.896+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.899+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.903+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.910+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.915+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.919+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.924+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.927+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.930+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.934+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.939+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.945+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.948+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.952+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.956+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.959+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.961+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.966+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.970+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.973+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.977+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.980+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.983+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.986+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.990+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:10.993+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[2024-03-14T16:36:11.011+0000] {logging_mixin.py:188} INFO - /home/airflow
+[2024-03-14T16:36:13.708+0000] {logging_mixin.py:188} WARNING - /usr/local/lib/python3.8/dist-packages/_distutils_hack/__init__.py:26 UserWarning: Setuptools is replacing distutils.
+[2024-03-14T16:36:13.825+0000] {logging_mixin.py:188} WARNING - Successfully registered model 'LightGBM'.
+[2024-03-14T16:36:13.878+0000] {logging_mixin.py:188} WARNING - 2024/03/14 16:36:13 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: LightGBM, version 1
+[2024-03-14T16:36:13.878+0000] {logging_mixin.py:188} WARNING - Created version '1' of model 'LightGBM'.
+[2024-03-14T16:36:13.939+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] Unknown parameter: silent
+[2024-03-14T16:36:13.940+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] bagging_freq is set=7, subsample_freq=0 will be ignored. Current value: bagging_freq=7
+[2024-03-14T16:36:13.940+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] feature_fraction is set=0.7938437977336682, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7938437977336682
+[2024-03-14T16:36:13.940+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] bagging_fraction is set=0.9776942233774311, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9776942233774311
+[2024-03-14T16:36:14.135+0000] {logging_mixin.py:188} INFO - Precision= 0.7409920994171489
+[2024-03-14T16:36:14.135+0000] {logging_mixin.py:188} INFO - Recall= 0.7494172865506418
+[2024-03-14T16:36:14.135+0000] {logging_mixin.py:188} INFO - AUC= 0.7494172865506418
+[2024-03-14T16:36:15.861+0000] {logging_mixin.py:188} INFO - Inside MLflow Run with id 9b2520f45a2c45d99aae2ebf92e30853
+[2024-03-14T16:36:16.884+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-14T16:36:16.904+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=Lead_scoring_training_pipeline, task_id=training_model, execution_date=20240314T163552, start_date=20240314T163603, end_date=20240314T163616
+[2024-03-14T16:36:17.949+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-14T16:36:18.008+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

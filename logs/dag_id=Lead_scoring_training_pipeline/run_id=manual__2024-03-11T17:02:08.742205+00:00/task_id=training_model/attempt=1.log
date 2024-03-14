@@ -1,0 +1,127 @@
+[2024-03-11T17:02:17.764+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Lead_scoring_training_pipeline.training_model manual__2024-03-11T17:02:08.742205+00:00 [queued]>
+[2024-03-11T17:02:17.769+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Lead_scoring_training_pipeline.training_model manual__2024-03-11T17:02:08.742205+00:00 [queued]>
+[2024-03-11T17:02:17.769+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-11T17:02:17.789+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): training_model> on 2024-03-11 17:02:08.742205+00:00
+[2024-03-11T17:02:17.797+0000] {standard_task_runner.py:60} INFO - Started process 1930 to run task
+[2024-03-11T17:02:17.799+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_scoring_training_pipeline', 'training_model', 'manual__2024-03-11T17:02:08.742205+00:00', '--job-id', '97', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py', '--cfg-path', '/tmp/tmpfxxai1ow']
+[2024-03-11T17:02:17.800+0000] {standard_task_runner.py:88} INFO - Job 97: Subtask training_model
+[2024-03-11T17:02:17.835+0000] {task_command.py:423} INFO - Running <TaskInstance: Lead_scoring_training_pipeline.training_model manual__2024-03-11T17:02:08.742205+00:00 [running]> on host 026c09de2b63
+[2024-03-11T17:02:17.894+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Lead_scoring_training_pipeline' AIRFLOW_CTX_TASK_ID='training_model' AIRFLOW_CTX_EXECUTION_DATE='2024-03-11T17:02:08.742205+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-11T17:02:08.742205+00:00'
+[2024-03-11T17:02:17.895+0000] {logging_mixin.py:188} INFO - /home/airflow/dags/Lead_scoring_data_pipeline
+[2024-03-11T17:02:17.895+0000] {logging_mixin.py:188} INFO - ['data_validation_checks.py', 'constants.py', 'schema.py', 'lead_scoring_data_pipeline.py', 'utils.py', 'data', '.ipynb_checkpoints', 'mapping', '__pycache__', 'lead_scoring_data_cleaning.db']
+[2024-03-11T17:02:17.895+0000] {logging_mixin.py:188} INFO - /home/mlfow/
+[2024-03-11T17:02:17.895+0000] {logging_mixin.py:188} INFO - Lead_scoring_mlflow_production.db
+[2024-03-11T17:02:17.896+0000] {logging_mixin.py:188} INFO - unable to open database file
+[2024-03-11T17:02:17.899+0000] {logging_mixin.py:188} INFO - Loading 'features' table
+[2024-03-11T17:02:21.906+0000] {logging_mixin.py:188} INFO - Loading 'target' table
+[2024-03-11T17:02:22.166+0000] {utils.py:201} INFO - Creating mlflow experiment
+[2024-03-11T17:02:22.538+0000] {connectionpool.py:810} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f687e6335e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
+[2024-03-11T17:02:26.542+0000] {connectionpool.py:810} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f687e633670>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
+[2024-03-11T17:02:34.548+0000] {connectionpool.py:810} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f687e633970>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
+[2024-03-11T17:02:50.564+0000] {connectionpool.py:810} WARNING - Retrying (JitteredRetry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f687e633b80>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
+[2024-03-11T17:03:22.596+0000] {connectionpool.py:810} WARNING - Retrying (JitteredRetry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f687e633ca0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/create
+[2024-03-11T17:03:22.602+0000] {connectionpool.py:810} WARNING - Retrying (JitteredRetry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f687e633b50>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=Lead_scoring_mlflow_production
+[2024-03-11T17:03:26.607+0000] {connectionpool.py:810} WARNING - Retrying (JitteredRetry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f687e633f70>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=Lead_scoring_mlflow_production
+[2024-03-11T17:03:34.617+0000] {connectionpool.py:810} WARNING - Retrying (JitteredRetry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f687e633fd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=Lead_scoring_mlflow_production
+[2024-03-11T17:03:50.634+0000] {connectionpool.py:810} WARNING - Retrying (JitteredRetry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f687e633c40>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=Lead_scoring_mlflow_production
+[2024-03-11T17:04:22.669+0000] {connectionpool.py:810} WARNING - Retrying (JitteredRetry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f687e6338e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=Lead_scoring_mlflow_production
+[2024-03-11T17:04:22.671+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f687e633430>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/connectionpool.py", line 813, in urlopen
+    return self.urlopen(
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/connectionpool.py", line 813, in urlopen
+    return self.urlopen(
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/connectionpool.py", line 813, in urlopen
+    return self.urlopen(
+  [Previous line repeated 2 more times]
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=6008): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=Lead_scoring_mlflow_production (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f687e633430>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/mlflow/utils/rest_utils.py", line 108, in http_request
+    return _get_http_response_with_retries(
+  File "/usr/local/lib/python3.8/dist-packages/mlflow/utils/request_utils.py", line 212, in _get_http_response_with_retries
+    return session.request(method, url, allow_redirects=allow_redirects, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=6008): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=Lead_scoring_mlflow_production (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f687e633430>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 204, in get_trained_model
+    mlflow.set_experiment(EXPERIMENT)
+  File "/usr/local/lib/python3.8/dist-packages/mlflow/tracking/fluent.py", line 142, in set_experiment
+    experiment = client.get_experiment_by_name(experiment_name)
+  File "/usr/local/lib/python3.8/dist-packages/mlflow/tracking/client.py", line 539, in get_experiment_by_name
+    return self._tracking_client.get_experiment_by_name(name)
+  File "/usr/local/lib/python3.8/dist-packages/mlflow/tracking/_tracking_service/client.py", line 236, in get_experiment_by_name
+    return self.store.get_experiment_by_name(name)
+  File "/usr/local/lib/python3.8/dist-packages/mlflow/store/tracking/rest_store.py", line 323, in get_experiment_by_name
+    response_proto = self._call_endpoint(GetExperimentByName, req_body)
+  File "/usr/local/lib/python3.8/dist-packages/mlflow/store/tracking/rest_store.py", line 60, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "/usr/local/lib/python3.8/dist-packages/mlflow/utils/rest_utils.py", line 216, in call_endpoint
+    response = http_request(**call_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/mlflow/utils/rest_utils.py", line 130, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to http://127.0.0.1:6008/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=6008): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=Lead_scoring_mlflow_production (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f687e633430>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[2024-03-11T17:04:22.689+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=Lead_scoring_training_pipeline, task_id=training_model, execution_date=20240311T170208, start_date=20240311T170217, end_date=20240311T170422
+[2024-03-11T17:04:22.719+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 97 for task training_model (API request to http://127.0.0.1:6008/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='127.0.0.1', port=6008): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=Lead_scoring_mlflow_production (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f687e633430>: Failed to establish a new connection: [Errno 111] Connection refused')); 1930)
+[2024-03-11T17:04:22.779+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-11T17:04:22.791+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

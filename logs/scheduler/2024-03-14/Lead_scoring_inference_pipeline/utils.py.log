@@ -1,0 +1,113 @@
+[2024-03-14T16:23:28.698+0000] {processor.py:161} INFO - Started process (PID=627) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:23:28.699+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:23:28.700+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:23:28.700+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:23:28.706+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:23:28.705+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_inference_pipeline/utils.py", line 12, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-14T16:23:28.707+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:23:28.760+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.064 seconds
+[2024-03-14T16:24:42.082+0000] {processor.py:161} INFO - Started process (PID=730) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:24:42.085+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:24:42.086+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:24:42.085+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:24:42.090+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:24:42.089+0000] {dagbag.py:350} ERROR - Failed to import: /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/dags/Lead_scoring_inference_pipeline/utils.py", line 12, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+[2024-03-14T16:24:42.090+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:24:42.194+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.115 seconds
+[2024-03-14T16:25:42.030+0000] {processor.py:161} INFO - Started process (PID=817) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:25:42.032+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:25:42.033+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:25:42.032+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:25:42.737+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:25:42.782+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.755 seconds
+[2024-03-14T16:26:47.576+0000] {processor.py:161} INFO - Started process (PID=932) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:26:47.578+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:26:47.579+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:26:47.579+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:26:48.305+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:26:48.314+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.742 seconds
+[2024-03-14T16:27:55.417+0000] {processor.py:161} INFO - Started process (PID=1047) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:27:55.419+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:27:55.420+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:27:55.419+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:27:56.190+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:27:56.198+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.784 seconds
+[2024-03-14T16:29:07.495+0000] {processor.py:161} INFO - Started process (PID=1151) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:29:07.497+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:29:07.498+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:29:07.498+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:29:08.295+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:29:08.304+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.813 seconds
+[2024-03-14T16:30:59.582+0000] {processor.py:161} INFO - Started process (PID=1346) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:30:59.584+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:30:59.585+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:30:59.585+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:31:00.389+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:31:00.398+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.819 seconds
+[2024-03-14T16:32:07.482+0000] {processor.py:161} INFO - Started process (PID=1460) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:32:07.485+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:32:07.486+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:32:07.486+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:32:08.302+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:32:08.311+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.832 seconds
+[2024-03-14T16:33:20.798+0000] {processor.py:161} INFO - Started process (PID=1673) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:33:20.800+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:33:20.801+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:33:20.801+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:33:21.607+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:33:21.617+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.822 seconds
+[2024-03-14T16:35:01.402+0000] {processor.py:161} INFO - Started process (PID=1839) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:35:01.404+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:35:01.405+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:35:01.405+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:35:02.242+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:35:02.251+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.853 seconds
+[2024-03-14T16:36:38.318+0000] {processor.py:161} INFO - Started process (PID=2016) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:36:38.320+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:36:38.321+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:36:38.321+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:36:39.137+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:36:39.146+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.831 seconds
+[2024-03-14T16:38:08.558+0000] {processor.py:161} INFO - Started process (PID=2193) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:38:08.560+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:38:08.561+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:38:08.561+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:38:09.359+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:38:09.366+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.812 seconds
+[2024-03-14T16:39:25.162+0000] {processor.py:161} INFO - Started process (PID=2313) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:39:25.164+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:39:25.165+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:39:25.165+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:39:25.957+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:39:25.966+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.807 seconds
+[2024-03-14T16:40:33.886+0000] {processor.py:161} INFO - Started process (PID=2427) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:40:33.888+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:40:33.889+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:40:33.888+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:40:34.684+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:40:34.694+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.811 seconds
+[2024-03-14T16:41:44.871+0000] {processor.py:161} INFO - Started process (PID=2537) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:41:44.873+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:41:44.874+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:41:44.874+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:41:45.774+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:41:45.780+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.912 seconds
+[2024-03-14T16:43:07.279+0000] {processor.py:161} INFO - Started process (PID=2654) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:43:07.281+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:43:07.282+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:43:07.282+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:43:08.184+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:43:08.192+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.916 seconds
+[2024-03-14T16:44:49.432+0000] {processor.py:161} INFO - Started process (PID=2834) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:44:49.434+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:44:49.435+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:44:49.434+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:44:50.324+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:44:50.332+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.903 seconds
+[2024-03-14T16:56:30.065+0000] {processor.py:161} INFO - Started process (PID=3268) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:56:30.067+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:56:30.068+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:56:30.067+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:56:30.886+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:56:30.894+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.833 seconds
+[2024-03-14T16:58:27.669+0000] {processor.py:161} INFO - Started process (PID=3463) to work on /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:58:27.671+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py for tasks to queue
+[2024-03-14T16:58:27.672+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:58:27.671+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:58:28.460+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py
+[2024-03-14T16:58:28.468+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_inference_pipeline/utils.py took 0.803 seconds

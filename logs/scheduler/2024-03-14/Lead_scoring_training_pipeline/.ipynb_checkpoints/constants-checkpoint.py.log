@@ -1,0 +1,145 @@
+[2024-03-14T16:23:32.111+0000] {processor.py:161} INFO - Started process (PID=630) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:23:32.112+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:23:32.113+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:23:32.113+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:23:32.116+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:23:32.127+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.019 seconds
+[2024-03-14T16:24:45.718+0000] {processor.py:161} INFO - Started process (PID=733) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:24:45.720+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:24:45.721+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:24:45.721+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:24:45.724+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:24:45.734+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.019 seconds
+[2024-03-14T16:25:47.283+0000] {processor.py:161} INFO - Started process (PID=832) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:25:47.284+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:25:47.285+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:25:47.285+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:25:47.288+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:25:47.299+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.019 seconds
+[2024-03-14T16:26:53.018+0000] {processor.py:161} INFO - Started process (PID=947) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:26:53.020+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:26:53.021+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:26:53.020+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:26:53.023+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:26:53.034+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.019 seconds
+[2024-03-14T16:27:59.922+0000] {processor.py:161} INFO - Started process (PID=1062) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:27:59.925+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:27:59.926+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:27:59.925+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:27:59.928+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:27:59.938+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.019 seconds
+[2024-03-14T16:29:12.682+0000] {processor.py:161} INFO - Started process (PID=1178) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:29:12.684+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:29:12.685+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:29:12.684+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:29:12.687+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:29:12.698+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.019 seconds
+[2024-03-14T16:31:04.770+0000] {processor.py:161} INFO - Started process (PID=1373) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:31:04.772+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:31:04.773+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:31:04.773+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:31:04.776+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:31:04.787+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.019 seconds
+[2024-03-14T16:32:11.687+0000] {processor.py:161} INFO - Started process (PID=1487) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:32:11.689+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:32:11.690+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:32:11.689+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:32:11.692+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:32:11.703+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.019 seconds
+[2024-03-14T16:33:25.303+0000] {processor.py:161} INFO - Started process (PID=1700) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:33:25.305+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:33:25.306+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:33:25.306+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:33:25.309+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:33:25.319+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.019 seconds
+[2024-03-14T16:35:06.683+0000] {processor.py:161} INFO - Started process (PID=1866) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:35:06.685+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:35:06.686+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:35:06.686+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:35:06.689+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:35:06.700+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.020 seconds
+[2024-03-14T16:35:50.007+0000] {processor.py:161} INFO - Started process (PID=1929) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:35:50.010+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:35:50.011+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:35:50.010+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:35:50.013+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:35:50.024+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.020 seconds
+[2024-03-14T16:36:49.410+0000] {processor.py:161} INFO - Started process (PID=2065) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:36:49.412+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:36:49.413+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:36:49.413+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:36:49.416+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:36:49.426+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.019 seconds
+[2024-03-14T16:37:26.535+0000] {processor.py:161} INFO - Started process (PID=2105) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:37:26.536+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:37:26.537+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:37:26.537+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:37:26.540+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:37:26.550+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.019 seconds
+[2024-03-14T16:38:20.111+0000] {processor.py:161} INFO - Started process (PID=2242) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:38:20.113+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:38:20.114+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:38:20.114+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:38:20.117+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:38:20.128+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.020 seconds
+[2024-03-14T16:39:00.659+0000] {processor.py:161} INFO - Started process (PID=2285) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:39:00.661+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:39:00.662+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:39:00.661+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:39:00.664+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:39:00.675+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.019 seconds
+[2024-03-14T16:39:36.154+0000] {processor.py:161} INFO - Started process (PID=2362) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:39:36.156+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:39:36.157+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:39:36.156+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:39:36.159+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:39:36.170+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.020 seconds
+[2024-03-14T16:40:10.447+0000] {processor.py:161} INFO - Started process (PID=2400) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:40:10.449+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:40:10.450+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:40:10.450+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:40:10.453+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:40:10.464+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.019 seconds
+[2024-03-14T16:40:44.331+0000] {processor.py:161} INFO - Started process (PID=2476) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:40:44.333+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:40:44.334+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:40:44.334+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:40:44.337+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:40:44.348+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.020 seconds
+[2024-03-14T16:41:19.562+0000] {processor.py:161} INFO - Started process (PID=2507) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:41:19.563+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:41:19.564+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:41:19.564+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:41:19.567+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:41:19.577+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.019 seconds
+[2024-03-14T16:42:00.834+0000] {processor.py:161} INFO - Started process (PID=2586) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:42:00.836+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:42:00.837+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:42:00.836+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:42:00.839+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:42:00.850+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.020 seconds
+[2024-03-14T16:42:40.626+0000] {processor.py:161} INFO - Started process (PID=2623) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:42:40.629+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:42:40.630+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:42:40.629+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:42:40.633+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:42:40.644+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.021 seconds
+[2024-03-14T16:43:19.198+0000] {processor.py:161} INFO - Started process (PID=2703) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:43:19.200+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:43:19.201+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:43:19.200+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:43:19.203+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:43:19.214+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.020 seconds
+[2024-03-14T16:44:00.843+0000] {processor.py:161} INFO - Started process (PID=2743) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:44:00.845+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:44:00.846+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:44:00.846+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:44:00.848+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:44:00.859+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.019 seconds
+[2024-03-14T16:45:00.635+0000] {processor.py:161} INFO - Started process (PID=2883) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:45:00.637+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:45:00.638+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:45:00.638+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:45:00.641+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:45:00.652+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.020 seconds
+[2024-03-14T16:45:38.455+0000] {processor.py:161} INFO - Started process (PID=2922) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:45:38.457+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:45:38.458+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:45:38.457+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:45:38.460+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:45:38.471+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.019 seconds
+[2024-03-14T16:55:29.852+0000] {processor.py:161} INFO - Started process (PID=3078) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:55:29.855+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:55:29.857+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:55:29.856+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:55:29.860+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:55:29.872+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.023 seconds
+[2024-03-14T16:56:42.239+0000] {processor.py:161} INFO - Started process (PID=3317) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:56:42.241+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:56:42.243+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:56:42.242+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:56:42.246+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:56:42.258+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.023 seconds
+[2024-03-14T16:57:41.647+0000] {processor.py:161} INFO - Started process (PID=3418) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:57:41.650+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:57:41.651+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:57:41.650+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:57:41.654+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:57:41.667+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.023 seconds
+[2024-03-14T16:58:39.632+0000] {processor.py:161} INFO - Started process (PID=3512) to work on /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:58:39.634+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py for tasks to queue
+[2024-03-14T16:58:39.635+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:58:39.634+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:58:39.637+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py
+[2024-03-14T16:58:39.649+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_training_pipeline/.ipynb_checkpoints/constants-checkpoint.py took 0.021 seconds

@@ -1,0 +1,14 @@
+[2024-03-11T16:22:50.274+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.checking_model_inputs_schema manual__2024-03-11T16:22:24.238896+00:00 [queued]>
+[2024-03-11T16:22:50.280+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.checking_model_inputs_schema manual__2024-03-11T16:22:24.238896+00:00 [queued]>
+[2024-03-11T16:22:50.281+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-11T16:22:50.300+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): checking_model_inputs_schema> on 2024-03-11 16:22:24.238896+00:00
+[2024-03-11T16:22:50.305+0000] {standard_task_runner.py:60} INFO - Started process 1375 to run task
+[2024-03-11T16:22:50.309+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_Scoring_Data_Engineering_Pipeline', 'checking_model_inputs_schema', 'manual__2024-03-11T16:22:24.238896+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py', '--cfg-path', '/tmp/tmpjjsloztt']
+[2024-03-11T16:22:50.310+0000] {standard_task_runner.py:88} INFO - Job 46: Subtask checking_model_inputs_schema
+[2024-03-11T16:22:50.348+0000] {task_command.py:423} INFO - Running <TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.checking_model_inputs_schema manual__2024-03-11T16:22:24.238896+00:00 [running]> on host 19276f21f48e
+[2024-03-11T16:22:50.404+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Lead_Scoring_Data_Engineering_Pipeline' AIRFLOW_CTX_TASK_ID='checking_model_inputs_schema' AIRFLOW_CTX_EXECUTION_DATE='2024-03-11T16:22:24.238896+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-11T16:22:24.238896+00:00'
+[2024-03-11T16:22:50.406+0000] {logging_mixin.py:188} INFO - Exception thrown in model_input_schema_check : Execution failed on sql 'select * from model_input': no such table: model_input
+[2024-03-11T16:22:50.406+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-11T16:22:50.409+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=Lead_Scoring_Data_Engineering_Pipeline, task_id=checking_model_inputs_schema, execution_date=20240311T162224, start_date=20240311T162250, end_date=20240311T162250
+[2024-03-11T16:22:50.439+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-11T16:22:50.448+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

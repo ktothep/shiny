@@ -1,0 +1,95 @@
+[2024-03-14T16:23:23.495+0000] {processor.py:161} INFO - Started process (PID=623) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:23:23.495+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:23:23.497+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:23:23.496+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:23:23.500+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:23:23.511+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.020 seconds
+[2024-03-14T16:24:37.978+0000] {processor.py:161} INFO - Started process (PID=726) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:24:37.980+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:24:37.981+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:24:37.981+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:24:37.984+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:24:37.994+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.019 seconds
+[2024-03-14T16:25:38.387+0000] {processor.py:161} INFO - Started process (PID=813) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:25:38.390+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:25:38.391+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:25:38.390+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:25:38.396+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:25:38.406+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.022 seconds
+[2024-03-14T16:26:43.470+0000] {processor.py:161} INFO - Started process (PID=928) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:26:43.472+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:26:43.473+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:26:43.473+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:26:43.478+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:26:43.489+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.022 seconds
+[2024-03-14T16:27:51.430+0000] {processor.py:161} INFO - Started process (PID=1043) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:27:51.433+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:27:51.434+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:27:51.433+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:27:51.438+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:27:51.449+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.022 seconds
+[2024-03-14T16:29:02.551+0000] {processor.py:161} INFO - Started process (PID=1147) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:29:02.553+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:29:02.554+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:29:02.553+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:29:02.559+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:29:02.570+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.022 seconds
+[2024-03-14T16:30:55.398+0000] {processor.py:161} INFO - Started process (PID=1342) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:30:55.400+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:30:55.401+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:30:55.401+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:30:55.406+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:30:55.417+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.022 seconds
+[2024-03-14T16:32:03.310+0000] {processor.py:161} INFO - Started process (PID=1456) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:32:03.312+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:32:03.313+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:32:03.313+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:32:03.318+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:32:03.329+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.022 seconds
+[2024-03-14T16:33:16.307+0000] {processor.py:161} INFO - Started process (PID=1669) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:33:16.309+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:33:16.310+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:33:16.309+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:33:16.315+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:33:16.324+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.021 seconds
+[2024-03-14T16:34:56.398+0000] {processor.py:161} INFO - Started process (PID=1835) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:34:56.400+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:34:56.401+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:34:56.401+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:34:56.406+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:34:56.417+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.022 seconds
+[2024-03-14T16:36:34.214+0000] {processor.py:161} INFO - Started process (PID=2012) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:36:34.216+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:36:34.217+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:36:34.217+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:36:34.222+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:36:34.233+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.022 seconds
+[2024-03-14T16:38:03.887+0000] {processor.py:161} INFO - Started process (PID=2189) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:38:03.889+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:38:03.890+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:38:03.889+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:38:03.895+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:38:03.905+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.022 seconds
+[2024-03-14T16:39:20.430+0000] {processor.py:161} INFO - Started process (PID=2309) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:39:20.432+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:39:20.433+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:39:20.433+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:39:20.438+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:39:20.449+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.022 seconds
+[2024-03-14T16:40:29.681+0000] {processor.py:161} INFO - Started process (PID=2423) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:40:29.684+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:40:29.685+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:40:29.684+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:40:29.690+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:40:29.700+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.022 seconds
+[2024-03-14T16:41:40.550+0000] {processor.py:161} INFO - Started process (PID=2533) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:41:40.552+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:41:40.553+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:41:40.553+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:41:40.558+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:41:40.569+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.022 seconds
+[2024-03-14T16:43:02.268+0000] {processor.py:161} INFO - Started process (PID=2650) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:43:02.349+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:43:02.350+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:43:02.349+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:43:02.355+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:43:02.366+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.101 seconds
+[2024-03-14T16:44:44.438+0000] {processor.py:161} INFO - Started process (PID=2830) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:44:44.440+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:44:44.441+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:44:44.441+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:44:44.446+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:44:44.457+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.022 seconds
+[2024-03-14T16:56:26.492+0000] {processor.py:161} INFO - Started process (PID=3264) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:56:26.494+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:56:26.496+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:56:26.495+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:56:26.499+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:56:26.512+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.024 seconds
+[2024-03-14T16:58:22.481+0000] {processor.py:161} INFO - Started process (PID=3459) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:58:22.483+0000] {processor.py:830} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-03-14T16:58:22.485+0000] {logging_mixin.py:188} INFO - [2024-03-14T16:58:22.484+0000] {dagbag.py:540} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:58:22.488+0000] {processor.py:842} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py
+[2024-03-14T16:58:22.501+0000] {processor.py:183} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_branch_operator.py took 0.023 seconds

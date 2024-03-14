@@ -1,0 +1,12 @@
+[2024-03-11T16:32:30.928+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_interactions manual__2024-03-11T16:31:15.159190+00:00 [queued]>
+[2024-03-11T16:32:30.932+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_interactions manual__2024-03-11T16:31:15.159190+00:00 [queued]>
+[2024-03-11T16:32:30.933+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 2
+[2024-03-11T16:32:30.950+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): mapping_interactions> on 2024-03-11 16:31:15.159190+00:00
+[2024-03-11T16:32:30.955+0000] {standard_task_runner.py:60} INFO - Started process 1880 to run task
+[2024-03-11T16:32:30.960+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_Scoring_Data_Engineering_Pipeline', 'mapping_interactions', 'manual__2024-03-11T16:31:15.159190+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py', '--cfg-path', '/tmp/tmpgp0u31ui']
+[2024-03-11T16:32:30.960+0000] {standard_task_runner.py:88} INFO - Job 72: Subtask mapping_interactions
+[2024-03-11T16:32:30.997+0000] {task_command.py:423} INFO - Running <TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_interactions manual__2024-03-11T16:31:15.159190+00:00 [running]> on host 19276f21f48e
+[2024-03-11T16:32:31.050+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Lead_Scoring_Data_Engineering_Pipeline' AIRFLOW_CTX_TASK_ID='mapping_interactions' AIRFLOW_CTX_EXECUTION_DATE='2024-03-11T16:31:15.159190+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-11T16:31:15.159190+00:00'
+[2024-03-11T16:32:34.214+0000] {logging_mixin.py:188} INFO - categorical_variables_mapped table loaded
+[2024-03-11T16:32:58.172+0000] {local_task_job_runner.py:234} INFO - Task exited with return code -9
+[2024-03-11T16:32:58.419+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check
