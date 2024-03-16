@@ -1,0 +1,1 @@
+[2024-03-16T09:54:23.683+0000] {scheduler_job_runner.py:781} ERROR - Executor reports task instance <TaskInstance: Lead_scoring_training_pipeline.encoding_categorical_variables manual__2024-03-16T09:54:18.333039+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

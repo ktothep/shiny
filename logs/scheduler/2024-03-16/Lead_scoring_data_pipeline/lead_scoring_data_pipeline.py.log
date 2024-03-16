@@ -1,0 +1,98 @@
+[2024-03-16T09:55:04.466+0000] {processor.py:161} INFO - Started process (PID=792) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T09:55:04.467+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2024-03-16T09:55:04.468+0000] {logging_mixin.py:188} INFO - [2024-03-16T09:55:04.467+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T09:55:04.730+0000] {processor.py:840} INFO - DAG(s) 'Lead_Scoring_Data_Engineering_Pipeline' retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T09:55:04.745+0000] {logging_mixin.py:188} INFO - [2024-03-16T09:55:04.745+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-16T09:55:04.767+0000] {logging_mixin.py:188} INFO - [2024-03-16T09:55:04.766+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_Scoring_Data_Engineering_Pipeline to 2024-03-16 00:00:00+00:00, run_after=2024-03-17 00:00:00+00:00
+[2024-03-16T09:55:04.795+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.332 seconds
+[2024-03-16T09:56:39.247+0000] {processor.py:161} INFO - Started process (PID=947) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T09:56:39.250+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2024-03-16T09:56:39.251+0000] {logging_mixin.py:188} INFO - [2024-03-16T09:56:39.250+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T09:56:39.572+0000] {processor.py:840} INFO - DAG(s) 'Lead_Scoring_Data_Engineering_Pipeline' retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T09:56:39.585+0000] {logging_mixin.py:188} INFO - [2024-03-16T09:56:39.585+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-16T09:56:39.604+0000] {logging_mixin.py:188} INFO - [2024-03-16T09:56:39.604+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_Scoring_Data_Engineering_Pipeline to 2024-03-16 00:00:00+00:00, run_after=2024-03-17 00:00:00+00:00
+[2024-03-16T09:56:39.628+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.385 seconds
+[2024-03-16T09:58:03.699+0000] {processor.py:161} INFO - Started process (PID=1069) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T09:58:03.702+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2024-03-16T09:58:03.703+0000] {logging_mixin.py:188} INFO - [2024-03-16T09:58:03.702+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T09:58:04.044+0000] {processor.py:840} INFO - DAG(s) 'Lead_Scoring_Data_Engineering_Pipeline' retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T09:58:04.056+0000] {logging_mixin.py:188} INFO - [2024-03-16T09:58:04.056+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-16T09:58:04.074+0000] {logging_mixin.py:188} INFO - [2024-03-16T09:58:04.073+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_Scoring_Data_Engineering_Pipeline to 2024-03-16 00:00:00+00:00, run_after=2024-03-17 00:00:00+00:00
+[2024-03-16T09:58:04.096+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.400 seconds
+[2024-03-16T10:05:00.515+0000] {processor.py:161} INFO - Started process (PID=1761) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:05:00.517+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2024-03-16T10:05:00.518+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:05:00.518+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:05:00.852+0000] {processor.py:840} INFO - DAG(s) 'Lead_Scoring_Data_Engineering_Pipeline' retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:05:00.866+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:05:00.866+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-16T10:05:00.887+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:05:00.887+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_Scoring_Data_Engineering_Pipeline to 2024-03-16 00:00:00+00:00, run_after=2024-03-17 00:00:00+00:00
+[2024-03-16T10:05:00.919+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.407 seconds
+[2024-03-16T10:06:19.219+0000] {processor.py:161} INFO - Started process (PID=1886) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:06:19.221+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2024-03-16T10:06:19.222+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:06:19.221+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:06:19.569+0000] {processor.py:840} INFO - DAG(s) 'Lead_Scoring_Data_Engineering_Pipeline' retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:06:19.584+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:06:19.584+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-16T10:06:19.604+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:06:19.604+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_Scoring_Data_Engineering_Pipeline to 2024-03-16 00:00:00+00:00, run_after=2024-03-17 00:00:00+00:00
+[2024-03-16T10:06:19.636+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.421 seconds
+[2024-03-16T10:07:19.854+0000] {processor.py:161} INFO - Started process (PID=1991) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:07:19.856+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2024-03-16T10:07:19.857+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:07:19.857+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:07:20.196+0000] {processor.py:840} INFO - DAG(s) 'Lead_Scoring_Data_Engineering_Pipeline' retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:07:20.208+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:07:20.207+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-16T10:07:20.225+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:07:20.225+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_Scoring_Data_Engineering_Pipeline to 2024-03-16 00:00:00+00:00, run_after=2024-03-17 00:00:00+00:00
+[2024-03-16T10:07:20.250+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.399 seconds
+[2024-03-16T10:08:22.731+0000] {processor.py:161} INFO - Started process (PID=2095) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:08:22.733+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2024-03-16T10:08:22.734+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:08:22.733+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:08:23.045+0000] {processor.py:840} INFO - DAG(s) 'Lead_Scoring_Data_Engineering_Pipeline' retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:08:23.059+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:08:23.058+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-16T10:08:23.080+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:08:23.080+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_Scoring_Data_Engineering_Pipeline to 2024-03-16 00:00:00+00:00, run_after=2024-03-17 00:00:00+00:00
+[2024-03-16T10:08:23.111+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.383 seconds
+[2024-03-16T10:09:26.106+0000] {processor.py:161} INFO - Started process (PID=2201) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:09:26.108+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2024-03-16T10:09:26.109+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:09:26.108+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:09:26.417+0000] {processor.py:840} INFO - DAG(s) 'Lead_Scoring_Data_Engineering_Pipeline' retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:09:26.432+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:09:26.431+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-16T10:09:26.453+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:09:26.453+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_Scoring_Data_Engineering_Pipeline to 2024-03-16 00:00:00+00:00, run_after=2024-03-17 00:00:00+00:00
+[2024-03-16T10:09:26.482+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.379 seconds
+[2024-03-16T10:10:28.071+0000] {processor.py:161} INFO - Started process (PID=2305) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:10:28.072+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2024-03-16T10:10:28.073+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:10:28.073+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:10:28.359+0000] {processor.py:840} INFO - DAG(s) 'Lead_Scoring_Data_Engineering_Pipeline' retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:10:28.370+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:10:28.370+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-16T10:10:28.491+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:10:28.491+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_Scoring_Data_Engineering_Pipeline to 2024-03-16 00:00:00+00:00, run_after=2024-03-17 00:00:00+00:00
+[2024-03-16T10:10:28.515+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.447 seconds
+[2024-03-16T10:12:12.374+0000] {processor.py:161} INFO - Started process (PID=2482) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:12:12.376+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2024-03-16T10:12:12.377+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:12:12.376+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:12:12.687+0000] {processor.py:840} INFO - DAG(s) 'Lead_Scoring_Data_Engineering_Pipeline' retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:12:12.701+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:12:12.701+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-16T10:12:12.847+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:12:12.847+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_Scoring_Data_Engineering_Pipeline to 2024-03-16 00:00:00+00:00, run_after=2024-03-17 00:00:00+00:00
+[2024-03-16T10:12:12.875+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.505 seconds
+[2024-03-16T10:13:14.974+0000] {processor.py:161} INFO - Started process (PID=2588) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:13:14.976+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2024-03-16T10:13:14.977+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:13:14.977+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:13:15.329+0000] {processor.py:840} INFO - DAG(s) 'Lead_Scoring_Data_Engineering_Pipeline' retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:13:15.344+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:13:15.343+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-16T10:13:15.490+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:13:15.490+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_Scoring_Data_Engineering_Pipeline to 2024-03-16 00:00:00+00:00, run_after=2024-03-17 00:00:00+00:00
+[2024-03-16T10:13:15.555+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.585 seconds
+[2024-03-16T10:14:57.614+0000] {processor.py:161} INFO - Started process (PID=2970) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:14:57.616+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2024-03-16T10:14:57.617+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:14:57.616+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:14:57.989+0000] {processor.py:840} INFO - DAG(s) 'Lead_Scoring_Data_Engineering_Pipeline' retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:14:58.003+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:14:58.003+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-16T10:14:58.151+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:14:58.150+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_Scoring_Data_Engineering_Pipeline to 2024-03-16 00:00:00+00:00, run_after=2024-03-17 00:00:00+00:00
+[2024-03-16T10:14:58.179+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.568 seconds
+[2024-03-16T10:16:04.608+0000] {processor.py:161} INFO - Started process (PID=3082) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:16:04.609+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2024-03-16T10:16:04.610+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:16:04.610+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:16:04.935+0000] {processor.py:840} INFO - DAG(s) 'Lead_Scoring_Data_Engineering_Pipeline' retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:16:04.948+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:16:04.948+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-16T10:16:05.097+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:16:05.096+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_Scoring_Data_Engineering_Pipeline to 2024-03-16 00:00:00+00:00, run_after=2024-03-17 00:00:00+00:00
+[2024-03-16T10:16:05.125+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.520 seconds
+[2024-03-16T10:17:08.363+0000] {processor.py:161} INFO - Started process (PID=3188) to work on /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:17:08.365+0000] {processor.py:830} INFO - Processing file /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py for tasks to queue
+[2024-03-16T10:17:08.366+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:17:08.366+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:17:08.679+0000] {processor.py:840} INFO - DAG(s) 'Lead_Scoring_Data_Engineering_Pipeline' retrieved from /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py
+[2024-03-16T10:17:08.692+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:17:08.692+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-16T10:17:08.827+0000] {logging_mixin.py:188} INFO - [2024-03-16T10:17:08.827+0000] {dag.py:3834} INFO - Setting next_dagrun for Lead_Scoring_Data_Engineering_Pipeline to 2024-03-16 00:00:00+00:00, run_after=2024-03-17 00:00:00+00:00
+[2024-03-16T10:17:08.853+0000] {processor.py:183} INFO - Processing /home/airflow/dags/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py took 0.494 seconds

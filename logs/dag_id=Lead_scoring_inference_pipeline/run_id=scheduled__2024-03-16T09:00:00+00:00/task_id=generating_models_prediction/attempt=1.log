@@ -1,0 +1,20 @@
+[2024-03-16T10:02:30.839+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Lead_scoring_inference_pipeline.generating_models_prediction scheduled__2024-03-16T09:00:00+00:00 [queued]>
+[2024-03-16T10:02:30.845+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Lead_scoring_inference_pipeline.generating_models_prediction scheduled__2024-03-16T09:00:00+00:00 [queued]>
+[2024-03-16T10:02:30.845+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-16T10:02:30.869+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): generating_models_prediction> on 2024-03-16 09:00:00+00:00
+[2024-03-16T10:02:30.877+0000] {standard_task_runner.py:60} INFO - Started process 1482 to run task
+[2024-03-16T10:02:30.881+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_scoring_inference_pipeline', 'generating_models_prediction', 'scheduled__2024-03-16T09:00:00+00:00', '--job-id', '174', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_inference_pipeline/lead_scoring_inference_pipeline.py', '--cfg-path', '/tmp/tmpr_90o4_g']
+[2024-03-16T10:02:30.882+0000] {standard_task_runner.py:88} INFO - Job 174: Subtask generating_models_prediction
+[2024-03-16T10:02:30.920+0000] {task_command.py:423} INFO - Running <TaskInstance: Lead_scoring_inference_pipeline.generating_models_prediction scheduled__2024-03-16T09:00:00+00:00 [running]> on host daf5d70ef960
+[2024-03-16T10:02:30.985+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Lead_scoring_inference_pipeline' AIRFLOW_CTX_TASK_ID='generating_models_prediction' AIRFLOW_CTX_EXECUTION_DATE='2024-03-16T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-16T09:00:00+00:00'
+[2024-03-16T10:02:30.986+0000] {logging_mixin.py:188} INFO - Model url models:/LightGBM/production
+[2024-03-16T10:02:37.054+0000] {logging_mixin.py:188} INFO - Making Prediction
+[2024-03-16T10:02:37.121+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] Unknown parameter: silent
+[2024-03-16T10:02:37.121+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] bagging_freq is set=7, subsample_freq=0 will be ignored. Current value: bagging_freq=7
+[2024-03-16T10:02:37.122+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] feature_fraction is set=0.7938437977336682, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7938437977336682
+[2024-03-16T10:02:37.122+0000] {logging_mixin.py:188} INFO - [LightGBM] [Warning] bagging_fraction is set=0.9776942233774311, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9776942233774311
+[2024-03-16T10:02:40.318+0000] {logging_mixin.py:188} INFO - Error while running get_models_prediction : Cannot save file into a non-existent directory: '/homedags/Lead_scoring_inference_pipeline'
+[2024-03-16T10:02:40.320+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-16T10:02:40.328+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=Lead_scoring_inference_pipeline, task_id=generating_models_prediction, execution_date=20240316T090000, start_date=20240316T100230, end_date=20240316T100240
+[2024-03-16T10:02:40.416+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-16T10:02:40.465+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check
